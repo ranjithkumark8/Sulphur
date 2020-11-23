@@ -92,6 +92,7 @@ body{
     margin-top: 64px;
 }
 .digs_info{
+    padding-top: 32px;
     text-align: center;
     /* border: 1px solid red; */
     width: 900px;

@@ -1,0 +1,164 @@
+body{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    margin: 0;
+}
+
+.contact__medium{
+    /* border: 1px solid red; */
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.contact__medium h1{
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.contact__medium h4{
+    font-size: 20px;
+    font-weight: 100;
+}
+.support_types{
+    /* border: 1px solid red; */
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    margin-top: 80px;
+}
+.contact_specilist{
+    border: 1px solid silver;
+    margin-left: 20px;
+}
+.support_heading{
+    font-size: 25px;
+}
+.green, .orange{
+    margin-top: 5px;
+}
+.green{
+    /* border: 1px solid red; */
+    background-color: rgb(37, 160, 37);
+    height: 30px;
+    width: 5px;
+}
+.orange{
+    height: 30px;
+    width: 5px;
+    background-color: tomato;
+}
+.support_info{
+    /* border: 1px solid royalblue; */
+    height: 450px;
+    margin: 0px 30px;
+}
+.support_info h4{
+    margin-top: 0px;
+    font-size: 30px;
+}
+.support_info p{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.support_info button{
+    height: 80px;
+    width: 200px;
+    font-size: 20px;
+    background-color: white;
+    border: 2px solid blue;
+    color: blue;
+    margin-top: 70px;
+}
+#support_btn{
+    margin-top: 20px;
+}
+#contact_btn{
+    margin-top: 100px;
+}
+#media_btn{
+    margin-top: 80px;
+}
+
+.support_info button:hover,
+.support_info button:active{
+    background-color: blue;
+    color: white;
+}
+
+.digs{
+    background-color: #303030;
+    color: white;
+    margin-top: 64px;
+}
+.digs_info{
+    text-align: center;
+    /* border: 1px solid red; */
+    width: 900px;
+    margin: auto;
+}
+.digs_info h2{
+    font-size: 40px;    
+}
+.digs_info p{
+    font-size: 20px;
+}
+.reach_info{
+    /* border: 1px solid red; */
+    width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+}
+.location{
+    width: 200px;
+}
+.location img{
+    width: 200px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.address{
+    width: 180px;
+    margin: 0px 80px 20px 60px;
+}
+.address1{
+    flex-direction: column;
+}
+.address1 h2{
+    margin-top: 0;
+    font-size: 20px;
+
+}
+
+.address1 p{ 
+    font-size: 20px;
+    line-height: 40px;
+}
+.address2 p{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.address2{
+    margin-top: 60px;
+    /* border: 1px solid red */
+}
+.phone_no_col1{
+    margin-right: 40px;
+}
+.phone_no_col1 div, .phone_no_col2 div{
+    margin-bottom: 60px;
+}
+.phone_no_worldwide h2, .phone_no_Germany h2{
+    margin-top: 0;
+}
+
+.phone_no_worldwide p, .phone_no_UK p, .phone_no_America p, .phone_no_Germany p, .phone_no_Australia p{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.phone_no_col2{
+    margin-left: 50px;
+}

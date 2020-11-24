@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="slider.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="slider-container">
+        <div class="head">
+            <h4>Each Month, I Need:</h4>
+        </div>
+        <div class="sub-headings">
+            <div class="sub-headings-titles">
+                <div class="sub-headings-title">
+                    <h4>CONVERSIONS</h4>
+                </div>
+                <div class="question-mark"><a>?</a></div>
+            </div>
+            <div class="slider-prop">
+                <div class="slider-value" id="value"></div>
+                <div class="slider-box">
+                    <input type="range" min="0" max="3250" value="250" step="250" id="conversions-value" class="input-slider">
+                </div>
+            </div>
+        </div>
+        <div class="sub-headings2">
+            <div class="sub-headings-titles">
+                <div class="sub-headings-title">
+                    <h4>VISITORS</h4>
+                </div>
+                <div class="question-mark"><a>?</a></div>
+            </div>
+            <div class="slider-prop">
+                <div class="slider-value" id="visitors"></div>
+                <div class="slider-box">
+                    <input type="range" min="0" max="3250" value="250" step="250" id="visitors-value" class="input-slider">
+                </div>
+            </div>
+        </div>
+        <div class="sub-headings3">
+            <div class="sub-headings-titles">
+                <div class="sub-headings-title">
+                    <h4>DOMAINS</h4>
+                </div>
+                <div class="question-mark"><a>?</a></div>
+            </div>
+            <div class="slider-prop">
+                <div class="slider-value" id="domains"></div>
+                <div class="slider-box">
+                    <input type="range" min="0" max="3250" value="250" step="250" id="domain-value" class="input-slider">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./slider.js"></script>
+</body>
+</html>

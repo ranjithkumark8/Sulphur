@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 600px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    box-sizing: border-box;
+}
+.menu{
+    /* background: center; */
+    background-color: rgb(243, 135, 135, 0.90);
+    width: 100%;
+    display: flex;
+}
+.menu-options{
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: auto;
+}
+.main-image{
+    background-image: url(./landing-page-convert-more-customers.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.menu-options ul{
+    display: inline-flex;
+    list-style: none;
+    color: #303030;
+    align-items: center;
+}
+.menu-options ul li{
+    margin: 15px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.atag-prop a{
+    text-decoration: none;
+    color: #303030;
+}
+span{
+    font-size: x-small;
+    align-items: center;
+    font-weight: 600;
+}
+.sub-solutions{
+    display: flex;
+}
+/* .sub-solution1, .sub-solution2{
+    display: block;
+    border: 1px solid red;
+} */
+.sub-products, 
+.sub-learn,
+.sub-solutions{
+    display: none;
+}
+.sub-products ul li a, 
+.sub-learn ul li a,
+.sub-solution1 ul li a,
+.sub-solution2 ul li a{
+    text-decoration: none;
+    color: #303030;
+}
+.menu-options ul li:hover .sub-products, 
+.menu-options ul li:hover .sub-learn,
+.menu-options ul li:hover .sub-solutions{
+    display: block;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-left: 7px;
+    text-align: left;
+}
+.menu-options ul li:hover .sub-products ul,
+.menu-options ul li:hover .sub-learn ul{
+    display: block;
+    margin: 10px;
+}
+.menu-options ul li:hover .sub-products ul li a:hover,
+.menu-options ul li:hover .sub-learn ul li a:hover,
+.menu-options ul li:hover .sub-solution1 ul li a:hover,
+.menu-options ul li:hover .sub-solution2 ul li :hover{
+    color: royalblue;
+}
+
+/* .menu-user-elements{
+    align-items: center;
+} */
+input button{
+    align-items: center;
+}
+.search-box{
+    display: inline-block;
+    border: 3px solid #303030;
+    border-radius: 5px;
+}
+.user-elements{
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    /* border: 1px solid red; */
+    width: 450px;
+}
+.user-elements div{
+    margin: 0px 30px 0px 0px;
+}
+.search-txt{
+    border: transparent;
+    background-color: transparent;
+}
+.btn1{
+    height: 40px;
+    width: 75px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: transparent;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 600;
+}
+.btn1:hover {
+    background-color: black;
+    color: white;
+}
+.btn2{
+    background-color: black;
+    color: #ffffff;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    border: 2px solid black;
+    margin: 0px 0px 0px 5px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 600;
+}
+.btn2:hover{
+    background-color: #626262;
+}

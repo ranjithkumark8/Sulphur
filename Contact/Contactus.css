@@ -59,6 +59,7 @@ body{
 .support_info p{
     font-size: 20px;
     line-height: 30px;
+    font-weight: 100;
 }
 
 .support_info button{
@@ -99,10 +100,12 @@ body{
     margin: auto;
 }
 .digs_info h2{
-    font-size: 40px;    
+    font-size: 40px;
+    font-weight: 400;    
 }
 .digs_info p{
     font-size: 20px;
+    font-weight: 200;
 }
 .reach_info{
     /* border: 1px solid red; */
@@ -126,19 +129,22 @@ body{
 .address1{
     flex-direction: column;
 }
-.address1 h2{
+.address1 h2, .address2 h2{
     margin-top: 0;
     font-size: 20px;
-
+    font-weight: 500;
+    font-size: 30px;
 }
 
 .address1 p{ 
     font-size: 20px;
     line-height: 40px;
+    font-weight: 200;
 }
 .address2 p{
     font-size: 20px;
     line-height: 30px;
+    font-weight: 200;
 }
 
 .address2{
@@ -153,11 +159,18 @@ body{
 }
 .phone_no_worldwide h2, .phone_no_Germany h2{
     margin-top: 0;
+    font-weight: 500;
+    font-size: 30px;
+}
+.phone_no_UK h2, .phone_no_America h2, .phone_no_Australia h2{
+    font-weight: 500;
+    font-size: 30px;
 }
 
 .phone_no_worldwide p, .phone_no_UK p, .phone_no_America p, .phone_no_Germany p, .phone_no_Australia p{
     font-size: 20px;
     cursor: pointer;
+    font-weight: 200;
 }
 
 .phone_no_col2{

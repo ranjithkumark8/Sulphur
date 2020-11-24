@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.brands{
+    width: 1100px;
+    margin: auto;
+}
+.brands .info{
+    font-size: 32px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.brand{
+    height: 10px;
+    display: flex;
+    margin-top: 80px;
+}
+.brand h3{
+    font-size: 25px;
+    margin-top: 5PX;
+    margin-right: 40px;
+}
+.brand img{
+    display: inline-block;
+    margin-right: 40px;
+}
+.zolo-logo{
+    height: 50px;
+    width: 150px;
+}
+.within-logo{
+    width: 200px;
+    height: 50px;
+}
+.Later-logo{
+    width: 100px;
+    height: 50px;
+}
+.fiftyandfifty-logo{
+    width: 50px;
+    height: 50px;
+    margin-right: 0px !important;
+    word-wrap: unset;
+}
+.features{
+    margin: 200px auto;
+    width: 1000px;
+}
+.info{
+    text-align: center;
+}
+.features h1{
+    font-size: 80px;
+}
+.features p{
+    font-size: 20px;
+    line-height: 35px;
+}
+.feature_infos{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+}
+.feature_info1{
+    width: 350px;
+    margin-right: 60px;
+}
+.feature_info1:last-child{
+    margin-right: 0px;
+}
+.icon img{
+    width: 50px;
+    height: 50px;
+}
+.feature_desc h3{
+    font-size: 30px;
+    font-weight: lighter;
+}
+.feature_desc p{
+    font-size: 25px;
+    line-height: 30px;
+}
+.feature_desc button{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+    position: relative;
+}
+.btn-margin1{
+    margin-top: 25px;
+}
+
+/* .feature_desc button:before{
+    position: absolute;
+    content: "";
+    height: 0;
+    width: 0;
+    border: 5px solid blue;
+    bottom: 0;
+    left: 0;
+    box-sizing: border-box;
+} */
+/* .feature_desc button:after{
+    position: absolute;
+    content: "";
+    height: 0;
+    width: 0;
+    border: 5px solid blue;
+    top: -10;
+    right: 0;
+    box-sizing: border-box;
+} */
+
+/* .feature_desc button:hover:before{
+    height: 40px;
+    width: 300px;
+    border: 5px solid blue;
+    bottom: 20px;
+    border-right: none;
+    border-bottom: none;
+    transition: height 0.5s linear,
+                width 0.5s linear 0.5s;
+} */
+
+/* .feature_desc button:hover:after{
+    height: 40px;
+    width: 300px;
+    border: 5px solid blue;
+    bottom: 20px;
+    border-left: none;
+    border-top: none;
+    transition: height 0.5s linear,
+                width 0.5s linear 0.5s;
+} */
+.btn1_border:before{
+    position: absolute;
+    content: "";
+    height: 0;
+    width: 0;
+    border: 5px solid blue;
+    bottom: 0;
+    left: 30;
+    box-sizing: border-box;
+}
+.btn1_border:after{
+    position: absolute;
+    content: "";
+    height: 0;
+    width: 0;
+    border: 5px solid blue;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+}
+.btn1_border:hover:before{
+    height: 22px;
+    width: 290px;
+    border: 5px solid blue;
+    bottom: 20px;
+    border-right: none;
+    border-bottom: none;
+    transition: height 0.5s linear,
+                width 0.5s linear 0.5s;
+}
+.btn1_border:hover:after{
+    height: 50px;
+    width: 300px;
+    border: 5px solid blue;
+    bottom: 50px;
+    border-left: none;
+    border-top: none;
+    transition: height 3.5s linear,
+                width 0.5s linear 3.5s;
+}

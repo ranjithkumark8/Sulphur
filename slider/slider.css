@@ -46,6 +46,11 @@ body{
     font-size: 25px;
     text-align: center;
 }
+.slider-value p{
+    margin: 0;
+    padding: 0;
+    padding-top: 7px;
+}
 .question-mark a:hover{
     background-color: blue;
     border-radius: 50%;
